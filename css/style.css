@@ -166,7 +166,6 @@ header .hero {
    color:#3498DB;
  }
 
-
  /* PRICING */
  .pricing {
    background: #34495E url("../images/background.jpg") top center no-repeat;
@@ -260,6 +259,13 @@ header .hero {
    margin-left: -10px;
  }
 
+ .testimonials li:nth-of-type(even)
+{
+  position: relative;
+  z-index: 1;
+  top: 20px;
+}
+
  .testimonials img {
    height: 65px;
    width: 65px;
@@ -275,5 +281,5 @@ header .hero {
    font-size:13px;
    margin-top: 30px;
  }
- 
+
 
