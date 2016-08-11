@@ -537,5 +537,10 @@ header .hero {
    margin:5px 0 0;
  }
 
+ p:active, h1:active, a:active{
+    background-color: yellow;
+}
+
+
 
 
