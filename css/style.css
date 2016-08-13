@@ -344,14 +344,14 @@ header .hero {
    width:280px;
    position: absolute;
 
--webkit-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
    transform: translate(-280px,0);
-     -webkit-transform: translate(-280px,0); /** Chrome & Safari **/
-     -o-transform: translate(-280px,0); /** Opera **/
-     -moz-transform: translate(-280px,0); /** Firefox **/
+   -webkit-transform: translate(-280px,0); /** Chrome & Safari **/
+   -o-transform: translate(-280px,0); /** Opera **/
+   -moz-transform: translate(-280px,0); /** Firefox **/
  }
  .left-nav.open {
    display:block;
@@ -468,7 +468,7 @@ header .hero {
    display:inline-block;
  }
  .content .header > a {
-   float:right;
+   float: right;
  }
  .content-item {
    width:96%;
